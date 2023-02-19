@@ -126,7 +126,7 @@ h2 {
 .information {
   background-color: #e4cec2;
 }
-.three-columns {
+.five-columns {
   display: flex;
   justify-content: space-around;
   gap: 30px;
