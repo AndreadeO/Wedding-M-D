@@ -167,6 +167,7 @@ h2::after {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
 }
 
 .image--text {
@@ -329,7 +330,35 @@ footer {
   text-align: center;
   background-color: #f8d9c6;
 }
+@media screen and (min-width: 700px) {
+  header {
+    position: relative;
+    top: 20px;
+  }
 
+  .party {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 70px;
+    margin-left: 90px;
+    gap: 90px;
+  }
+
+  .colors {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .dot {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: inline-block;
+    margin: 10px 5px;
+    margin-bottom: 0;
+  }
+}
 @media screen and (min-width: 800px) {
   p {
     font-family: "Arsenal", sans-serif;
@@ -493,5 +522,9 @@ footer {
     width: 75px;
 
     margin: 15px 25px;
+  }
+  .dot {
+    display: inline-block;
+    margin-bottom: 0;
   }
 }
