@@ -113,7 +113,7 @@ header {
 .main-header {
   font-family: "WindSong", cursive;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 45px;
   color: #c7a794;
   display: block;
   text-align: center;
@@ -122,8 +122,8 @@ header {
 h1::after {
   content: url(ornament_transparent.png);
   display: block;
-  line-height: 20px;
-  margin-bottom: 30px;
+  line-height: 15px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -136,7 +136,7 @@ h2::after {
 .header-date {
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
   display: block;
   color: #c7a794;
   text-align: center;
@@ -145,7 +145,7 @@ h2::after {
 .header-place {
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
   display: block;
   color: #c7a794;
   text-align: center;
@@ -213,6 +213,9 @@ section {
   padding-bottom: 25px;
 }
 
+.place--link {
+  font-size: 23px;
+}
 .image--text {
   font-size: 15px;
 }
@@ -238,7 +241,7 @@ section {
   background-color: #f8d9c6;
   border-radius: 10px;
   padding: 20px 20px;
-  text-align: start;
+  text-align: center;
 }
 
 .last-activity p {
@@ -289,13 +292,19 @@ section {
 }
 
 .dot {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   background-color: #000000;
   display: inline-block;
-  margin: 10px 13px;
+  margin: 20px 15px;
   margin-bottom: 0;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .dot-color1 {
