@@ -301,7 +301,7 @@ section {
   width: 60px;
   border-radius: 50%;
   background-color: #000000;
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 20px 15px;
   margin-bottom: 0;
 }
@@ -554,6 +554,7 @@ footer {
     height: 75px;
     width: 75px;
     margin: 15px 25px;
+    display: inline-block;
   }
 
   .colors {
