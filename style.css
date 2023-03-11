@@ -271,6 +271,11 @@ section {
   text-align: center;
 }
 
+.info-5 img {
+  width: 100%;
+  margin: 10px auto;
+}
+
 .form {
   background-color: #fdf3ed;
 }
@@ -560,5 +565,10 @@ footer {
 
   .colors {
     display: inline-block;
+  }
+
+  .info-5 img {
+    width: auto;
+    margin: 10px auto;
   }
 }
