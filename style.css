@@ -298,6 +298,7 @@ section {
   border-radius: 10px;
   border: 1px solid #c7a794;
   background-color: #c7a794;
+  cursor: pointer;
 }
 
 .button-container {
